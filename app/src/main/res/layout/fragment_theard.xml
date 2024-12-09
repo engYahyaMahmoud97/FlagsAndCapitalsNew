@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="15dp"
+        app:adSize="BANNER"
+        app:adUnitId="ca-app-pub-8008323357438881/3548711543"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:gravity="center"
+        app:layout_constraintBottom_toTopOf="@+id/adView2"
+        app:layout_constraintEnd_toEndOf="@+id/adView2"
+        app:layout_constraintStart_toStartOf="@+id/adView2">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/gift4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="7dp"
+            android:drawableEnd="@drawable/gift_box"
+            android:enabled="false"
+            android:padding="15dp"
+            android:text="1+"
+            app:cornerRadius="50dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/gift5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="7dp"
+            android:drawableEnd="@drawable/gift_box"
+            android:enabled="false"
+            android:padding="15dp"
+            android:text="2+"
+            app:cornerRadius="50dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/gift6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="7dp"
+            android:drawableEnd="@drawable/gift_box"
+            android:enabled="false"
+            android:padding="15dp"
+            android:text="1+"
+            app:cornerRadius="50dp" />
+    </LinearLayout>
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:adSize="BANNER"
+        app:adUnitId="ca-app-pub-8008323357438881/3525343000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        app:layout_constraintEnd_toEndOf="@+id/adView2"
+        app:layout_constraintStart_toStartOf="@+id/adView2"
+        app:layout_constraintTop_toBottomOf="@+id/adView2">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/gift1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="7dp"
+            android:drawableEnd="@drawable/gift_box"
+            android:enabled="false"
+            android:padding="15dp"
+            android:text="2+"
+            app:cornerRadius="50dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/gift2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="7dp"
+            android:drawableEnd="@drawable/gift_box"
+            android:enabled="false"
+            android:padding="15dp"
+            android:text="1+"
+            app:cornerRadius="50dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/gift3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="7dp"
+            android:drawableEnd="@drawable/gift_box"
+            android:enabled="false"
+            android:padding="15dp"
+            android:text="2+"
+            app:cornerRadius="50dp" />
+    </LinearLayout>
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="15dp"
+        app:adSize="BANNER"
+        app:adUnitId="ca-app-pub-8008323357438881/1680982130"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
